@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "hullconv: code for 'A stopping rule for completing computed phase diagrams with generative models'"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/seungbaekim/hullconv"
+authors:
+  - family-names: Kim
+    given-names: Seungbae
+    affiliation: Yonsei University
+  - family-names: Kim
+    given-names: Juo
+    affiliation: Yonsei University
+  - family-names: Park
+    given-names: Jaehwi
+    affiliation: Yonsei University
+  - family-names: Jung
+    given-names: Yerim
+    affiliation: Yonsei University
+  - family-names: Min
+    given-names: Kyoungmin
+    affiliation: Yonsei University
