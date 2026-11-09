@@ -1,0 +1,2 @@
+# Materials Project access (only for building new hull tables)
+mp-api==0.46.4

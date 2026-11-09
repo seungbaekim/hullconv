@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hullconv"
+version = "1.0.0"
+description = "Hull convergence of generative crystal structure models"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+dependencies = ["numpy", "pandas", "scipy", "joblib"]
+
+[project.optional-dependencies]
+hull = ["pymatgen", "spglib", "ase"]
+sisso = ["TorchSisso", "torch", "scikit-learn"]
+mp = ["mp-api"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

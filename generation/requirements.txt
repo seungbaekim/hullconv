@@ -1,0 +1,5 @@
+# Structure relaxation with PET-OAM-XL v1.0.0
+upet==0.3.1
+ase==3.25.0
+torch
+# Structure generation: MatterGen, installed from https://github.com/microsoft/mattergen
